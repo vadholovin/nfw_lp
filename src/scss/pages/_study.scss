@@ -1,0 +1,52 @@
+// ========================================
+// STUDY SECTION
+// ========================================
+
+.study-item {
+  position: relative;
+  padding: 100px 20px 40px 20px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.study-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.study-item--1::after {
+  background-image: url("../img/icons/ic-rocket.svg");
+}
+.study-item--2::after {
+  background-image: url("../img/icons/ic-coffee-cup.svg");
+}
+.study-item--3::after {
+  background-image: url("../img/icons/094-presentation.svg");
+}
+.study-item--4::after {
+  background-image: url("../img/icons/018-message.svg");
+}
+
+.study-item__title {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.study-item__text {
+  font-size: 1.1rem;
+}

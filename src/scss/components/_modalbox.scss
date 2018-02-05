@@ -1,0 +1,70 @@
+// ========================================
+// MODAL BOX STYLES
+// ========================================
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-width: 100%;
+  padding: 30px;
+  padding-top: 40px;
+  border-radius: 0;
+  text-align: center;
+  background-color: #fff;
+  z-index: 99999;
+
+  @media (max-width: 420px) {
+    width: 300px;
+  }
+}
+
+.modal-content__title {
+  font-size: 35px;
+  line-height: 1.3;
+  color: $brand-purple;
+}
+
+.modal-content__text {
+  font-size: 20px;
+  line-height: 1.3;
+  color: $brand-purple;
+}
+
+.modal-content__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+.modal-content__close::before,
+.modal-content__close::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 0;
+  width: 30px;
+  height: 4px;
+  background-color: #999;
+  transform: rotate(45deg);
+}
+
+.modal-content__close::after {
+  transform: rotate(-45deg);
+}

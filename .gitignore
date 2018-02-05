@@ -1,0 +1,11 @@
+*.zip
+*.rar
+*.txt
+*.psd
+*.doc
+*.docx
+/psd/*
+/node_modules/*
+/sources/*
+/dist/*
+/src/#old/*

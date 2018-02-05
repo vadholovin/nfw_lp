@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Базовый курс: Нутрициология</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" href="css/unslider-dots.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-header">
+        <div class="container">
+          <div class="row">
+            <div class="header-logo">
+              <img src="img/logo.png" alt="Логотип novafitway">
+            </div>
+            <nav class="page-nav nav">
+              <div class="nav-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul class="nav-list is-hidden">
+                <li class="nav-li">
+                  <a class="nav-item" onclick="smoothScroll(document.getElementById('about'))">Состав и сроки</a>
+                </li>
+                <li class="nav-li">
+                  <a class="nav-item" onclick="smoothScroll(document.getElementById('program'))">Программа курса</a>
+                </li>
+                <li class="nav-li">
+                  <a class="nav-item" onclick="smoothScroll(document.getElementById('study'))">Как проходит обучение</a>
+                </li>
+                <li class="nav-li">
+                  <a class="nav-item" onclick="smoothScroll(document.getElementById('reviews'))">Отзывы</a>
+                </li>
+                <li class="nav-li">
+                  <a class="nav-item" onclick="smoothScroll(document.getElementById('feedback'))">Оставить заявку</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <h1 class="hero-title">
+              <span class="hero-title--small-upper">Базовый курс</span><br>
+              Нутрициология:<br>
+              <span class="hero-title--small">просто о сложном</span>
+            </h1>
+            <button type="button" class="btn btn-success" id="to-feedback" onclick="smoothScroll(document.getElementById('feedback'))">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about bd-b" id="about">
+        <div class="container">
+          <h2 class="section-title">
+            Состав курса и сроки прохождения
+          </h2>
+          <ul class="row about-list">
+            <li class="about-list__item about-list__item--2 col-12 col-sm-8 col-lg-4 offset-sm-2 offset-lg-0">
+              Восемь учебных блоков<br>+<br>
+              библиотека
+            </li>
+            <li class="about-list__item about-list__item--3 col-12 col-sm-8 col-lg-4 offset-sm-2 offset-lg-0">
+              Каждый блок включает:
+              <ul>
+                <li>1-3 видеолекции;</li>
+                <li>текстовые материалы;</li>
+                <li>ссылки на источники и исследования;</li>
+                <li>форум для обсуждения урока;</li>
+              </ul>
+            </li>
+            <li class="about-list__item about-list__item--1 col-12 col-sm-8 col-lg-4 offset-sm-2 offset-lg-0">
+              Продолжительность курса -<br>
+              2 месяца
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="program bd-b" id="program">
+        <div class="container">
+          <h2 class="section-title">
+            Программа курса
+          </h2>
+          <div class="row">
+            <div class="program-items col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
+              <div class="program-item">
+                <p class="program-item__title">Блок 1: Базовые принципы нутрициологии, обзор диет, понятие комфортного рациона</p>
+                <p class="program-item__content">
+                  Ты узнаешь, что объединяет все диеты, в чем особенности различных подходов, а также каким критериям должна отвечать диета, которую можно придерживаться без нарушений.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 2: Способы расчета калорий, функции и нормы БЖУ</p>
+                <p class="program-item__content">
+                  Ты окончательно разберешься в вопросах КБЖУ - поймешь, для чего и сколько, и сможешь рассчитать индивидуальные потребности в макронутриентах.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 3: Выбор продуктов и планирование питания</p>
+                <p class="program-item__content">
+                  Ты узнаешь, какие продукты должны составлять основу рациона и как сделать питание гибким без жесткача, страданий и зажоров.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 4: Питание при нарушениях здоровья</p>
+                <p class="program-item__content">
+                  Ты научишься планировать питание при различных нарушениях здоровья и сможешь успешно применять принципы диетотерапии.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 5: Витамины и минералы в питании и добавках</p>
+                <p class="program-item__content">
+                  Ты научишься выбирать продукты с учетом индивидуальных потребностей в витаминах и минералах, удачно сочетать эти продукты в рамках приема пищи, грамотно подбирать витаминно-минеральные комплексы.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 6: Спортивное питание для ваших целей</p>
+                <p class="program-item__content">
+                  Ты узнаешь, какие добавки реально работают, а какие – совершенно бесполезны. А также, какие добавки подходят для сжигания жира, роста мышц, увеличения силы, а какие - для поддержания здоровья и хорошего самочувствия.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 7: Снижение веса и гормональный фон </p>
+                <p class="program-item__content">
+                  Ты узнаешь, как построить диету без вреда для эндокринной системы и как выйти из дефицита калорий, восстановить здоровье и не набрать вес обратно. Научишься планировать читмилы, рефиды и перерывы во время снижения веса. А также узнаешь, как гормональная система организма реагирует на дефицит калорий и как поддержать важные гормоны.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Блок 8: Психология и физиология пищевого поведения</p>
+                <p class="program-item__content">
+                  Ты разберешься в физиологических и психологических причинах переедания. Поймешь, как устранить эти причины. Разработаешь стратегию, как перестать срываться и развить здоровое отношение к питанию.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Подкасты с ответами на вопросы по темам курса</p>
+                <p class="program-item__content">
+                  Если у тебя возник вопрос, требующий развернутого ответа, то по нему будет записан подкаст.
+                </p>
+              </div>
+              <div class="program-item">
+                <p class="program-item__title">Библиотека</p>
+                <p class="program-item__content">
+                  Здесь находятся важные книги о диетологии, спортивном питании, психологии пищевого поведения и т.д.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="study bd-b" id="study">
+        <div class="container">
+          <h2 class="section-title">Как проходит обучение</h2>
+          <ul class="study-list row">
+            <li class="study-item study-item--1 col-12 col-md-6 col-lg-3">
+              <p class="study-item__title">Быстрый доступ</p>
+              <p class="study-item__text">
+                Курс проходит онлайн на специальной и удобной обучающей платформе. После подтверждения оплаты ты получишь ссылку на платформу, логин и пароль.
+              </p>
+            </li>
+            <li class="study-item study-item--3 col-12 col-md-6 col-lg-3">
+              <p class="study-item__title">Памятки и презентации</p>
+              <p class="study-item__text">
+                Текстовые материалы оформлены в pdf-буклеты, выложены иллюстрированные презентации-конспекты к каждой лекции и книги для дополнительного чтения. Все это ты можешь скачать и пользоваться.
+              </p>
+            </li>
+            <li class="study-item study-item--4 col-12 col-md-6 col-lg-3">
+              <p class="study-item__title">Обратная связь</p>
+              <p class="study-item__text">
+                Ты можешь задать любой вопрос на форуме и получить на него развернутый ответ, а проверка домашних заданий представляет собой как правильность выполнения заданий, так и обсуждение сделанных тобой выводов.
+              </p>
+            </li>
+            <li class="study-item study-item--2 col-12 col-md-6 col-lg-3">
+              <p class="study-item__title">Комфортный темп</p>
+              <p class="study-item__text">
+                Курс длится два месяца, изучению каждого блока отводится одна неделя. В течение обучения ты сдаешь домашние задания, тесты, а в конце курса - проходишь итоговый тест для закрепления полученных знаний.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reviews bd-b" id="reviews">
+        <div class="container">
+          <h2 class="section-title">Отзывы</h2>
+          <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1">
+              <div class="reviews-slider">
+                <ul class="reviews-slider__ul">
+                  <li class="reviews-slider__li">
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально, лучшее по этой теме из того, что я видел и читал! Ещё ооочень порадовал блок по гормонам. Данные, кстати, весьма свежие, автор, что называется "в тренде". 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А. (врач 1 категории, член Национального Общества Диетологов, а также Национальной Ассоциации Клинического Питания)
+                    </cite>
+                  </li>
+                  <li>
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально. 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А.
+                    </cite>
+                  </li>
+                  <li>
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально, лучшее по этой теме из того, что я видел и читал! Ещё ооочень порадовал блок по гормонам. Данные, кстати, весьма свежие, автор, что называется "в тренде". Опять же, автор не боится развенчивать кучу спортивных мифов, за что ей отдельный респект. 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А.
+                    </cite>
+                  </li>
+                  <li>
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально, лучшее по этой теме из того, что я видел и читал! Ещё ооочень порадовал блок по гормонам. Данные, кстати, весьма свежие, автор, что называется "в тренде". Опять же, автор не боится развенчивать кучу спортивных мифов, за что ей отдельный респект. 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А.
+                    </cite></li>
+                  <li>
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально, лучшее по этой теме из того, что я видел и читал! Ещё ооочень порадовал блок по гормонам. Данные, кстати, весьма свежие, автор, что называется "в тренде". Опять же, автор не боится развенчивать кучу спортивных мифов, за что ей отдельный респект. 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А.
+                    </cite>
+                  </li>
+                  <li>
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально, лучшее по этой теме из того, что я видел и читал! Ещё ооочень порадовал блок по гормонам. Данные, кстати, весьма свежие, автор, что называется "в тренде". Опять же, автор не боится развенчивать кучу спортивных мифов, за что ей отдельный респект. 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А.
+                    </cite>
+                  </li>
+                  <li>
+                    <blockquote class="reviews-slider__review">
+                      Реально просто, доступно и понятно будет всем, кто в теме и не теме. Отличное изложение материала, слушать легко. Но и предельно научно. Стартовые блоки про КБЖУ выше всяких похвал. Реально, лучшее по этой теме из того, что я видел и читал! Ещё ооочень порадовал блок по гормонам. Данные, кстати, весьма свежие, автор, что называется "в тренде". Опять же, автор не боится развенчивать кучу спортивных мифов, за что ей отдельный респект. 
+                    </blockquote>
+                    <cite class="reviews-slider__author">
+                      Гуляев А.А.
+                    </cite>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback" id="feedback">
+        <div class="container">
+          <h2 class="section-title">Оставить заявку на курс</h2>
+          <form action="" class="main-form" id="main-form">
+            <input type="hidden" name="subject" value="Оставить заявку" id="subject">
+            <div class="input">
+              <input class="input__field" name="name" type="text" id="name" />
+              <label class="input__label" for="name">
+                <span class="input__label-content" data-content="Имя">Имя</span>
+              </label>
+            </div>
+            <div class="input">
+              <input class="input__field" name="email" type="text" id="email" />
+              <label class="input__label" for="email">
+                <span class="input__label-content" data-content="Email">Email</span>
+              </label>
+            </div>
+            <div class="input">
+              <textarea class="input__field input__field--textarea" name="message" id="message"></textarea>
+              <label class="input__label" for="message">
+                <span class="input__label-content" data-content="Комментарий">Комментарий</span>
+              </label>
+            </div>
+            <div class="btn-box">
+              <button type="submit" class="btn btn-success" id="application">Оставить заявку</button>
+              <button type="submit" class="btn btn-outline-success" id="question">Задать вопрос</button>
+            </div>
+            
+          </form>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <div class="container">
+          <div class="footer-module">
+            <div class="footer-socials">
+              <a href="https://vk.com/nova.hecks" class="socials-icon socials-icon--vk" target="_blank">Вконтакте</a>
+              <a href="https://www.facebook.com/novahecks" class="socials-icon socials-icon--fb" target="_blank">Фейсбук</a>
+              <a href="https://www.instagram.com/katty_holovina/" class="socials-icon socials-icon--insta" target="_blank">Инстаграм</a>
+            </div>
+            <div class="footer-logo"><a href="http://www.novafitway.ru/" target="_blank">novafitway.ru</a></div>
+            <div class="footer-attributes">© 2018 Екатерина Головина</div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- MODAL CONTENT -->
+      <div class="modal-box is-hidden">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <h2 class="modal-content__title"></h2>
+          <p class="modal-content__text"></p>
+          <div class="modal-content__close"></div>
+        </div>
+      </div>
+
+    </div><!-- .page end -->
+    
+    <script src="js/libs/jquery-3.3.1.js"></script>
+    <script src="js/libs/classie.js"></script>
+    <script src="js/libs/unslider-min.js"></script>
+    <script src="js/feedback.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

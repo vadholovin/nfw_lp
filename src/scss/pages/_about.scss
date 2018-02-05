@@ -1,0 +1,63 @@
+// ========================================
+// ABOUT SECTION
+// ========================================
+
+.about-list__item {
+  position: relative;
+  padding: 100px 20px 0 20px;
+  text-align: center;
+}
+
+.about-list__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.about-list__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about-list__item--1::before {
+  background-image: url("../img/icons/ic-calendar.svg");
+}
+
+.about-list__item--2::before {
+  background-image: url("../img/icons/032-folders.svg");
+}
+
+.about-list__item--3::before {
+  background-image: url("../img/icons/067-folder.svg");
+}
+
+.about-list__item {
+  // font-size: 1.2em;
+  line-height: 1.3;
+}
+
+.about-list__item ul {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.about-list__item li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 8px;
+  height: 8px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background-color: $brand-purple;
+}
+
+.about-list__item li:not(:last-child) {
+  margin-bottom: 5px;
+}

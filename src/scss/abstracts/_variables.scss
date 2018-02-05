@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// Copy text color
+/// @type Color
+// $text-color: #343a40 !default;
+$text-color: #696969 !default;
+
+/// Main brand color
+/// @type Color
+// $brand-green: #28a745 !default;
+$brand-green: #2dbb5f !default;
+$brand-purple-light: mix(#fff, #6f42c1, 45%) !default;
+$brand-purple: #6f42c1 !default;
+
+/// Light grey
+/// @type Color
+$grey: #6c757d !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #343a40 !default;
+
+// #3D383E
+

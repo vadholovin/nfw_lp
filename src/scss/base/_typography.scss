@@ -1,0 +1,18 @@
+/**
+ * Basic typography style for copy text
+ */
+
+html {
+  font-size: 100%;
+  background-color: #fff;
+}
+
+body {
+  color: $text-color;
+  font: normal 1.2rem / 1.4 'PT Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat",sans-serif;
+  color: $dark-grey;
+}

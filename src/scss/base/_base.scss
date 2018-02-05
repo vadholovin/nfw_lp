@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $brand-green;
+  text-decoration: none;
+}
+
+section:not(.hero) {
+  padding-top: 90px;
+  padding-bottom: 70px;
+
+  @media (min-width: 768px) {
+    padding-bottom: 90px;
+  }
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: 800px) {
+    font-size: 2rem;
+  }
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 6px;
+  background-color: $brand-purple;
+}
